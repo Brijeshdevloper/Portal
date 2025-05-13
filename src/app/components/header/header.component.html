@@ -1,0 +1,36 @@
+<!-- <div class="col-2">
+    <img id="logo" src="assets/images/logo.png" alt="COOP logo">
+</div>
+
+<div class="full">
+    <div class="row" *ngIf="showLanguage">
+        <div class="col center-column" *ngFor="let dataItem of Language">
+            <button type="button" class="btn btn-custom" (click)="getServices(dataItem)"
+                >{{dataItem.LanguageName}}</button>
+        </div>  
+    </div>
+</div>
+
+<div class="col-2">
+<div id="date">{{ currentDate | date:'EEE, MMM d, yyyy ' }}</div>
+<div id="time">{{ currentDate | date:' hh:mm:ss a' }}</div>
+</div> -->
+<div >
+    <img id="logo" src="assets/images/logo.png" alt="COOP logo">
+    <!-- <img id="calendar" src="assets/images/Calendar.png" alt="Calendar"> -->
+    <div>
+        <div id="date">{{ currentDate | date:'EEE, MMM d, yyyy ' }}</div>
+        <div id="time">{{ currentDate | date:' hh:mm:ss a' }}</div>
+    </div>
+</div>
+
+<div class="full" style="position: relative;">
+    <div class="row" *ngIf="showLanguage">
+        <div class="col center-column" *ngFor="let dataItem of Language">
+            <button type="button" class="btn btn-custom"                 
+            (click)="getServices(dataItem)">{{dataItem.LanguageCaption}}</button>
+        </div>
+        <img src="assets/images/back2.png" (click)="ParentBack()" class="backClickParent"
+            [ngStyle]="{'display': HomeServices.length == 2 ? 'none' : 'block'}">
+    </div>
+</div>

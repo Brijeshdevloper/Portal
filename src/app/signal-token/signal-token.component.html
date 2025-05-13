@@ -1,0 +1,35 @@
+<div *ngIf="showToken" class="maindiv">
+    <div class="receipt">
+        <div class="receipt-details">
+            <div class="text-center">
+                <img id="logo" src="assets/images/logo.png" alt="COOP logo" style="width: 75%;">
+            </div>
+            <br>
+            <div class="d-flex ">
+                <div class="text-left" id="date">{{ currentDate | date:'EEE, MMM d, yyyy '
+                    }}</div>
+                <div class="text-right d-inline-block" id="time">{{ currentDate | date:'
+                    hh:mm:ss a' }}
+                </div>
+                          
+            </div>
+            <br>
+            <div class="text-center">
+                <h2>{{BranchName}}</h2>
+            </div>
+            <div class="text-center">
+                <h1>{{ SelectedServiceCaption }}</h1>
+            </div>
+            <div class="text-center">
+                <div class="textAlignment">{{getValueForCaption('TokenNo')||'Token No'}}</div>
+                <p class="col-md-12 text-center abcv">{{ tokenData }}</p>
+            </div>
+            <div class="text-center" id="counterText">
+                <div class="textAlign">{{getValueForCaption('YouWillBeAttendedInApprox')||'You will be attended in approx'}} {{AverageWait}} {{getValueForCaption('Minutes')||'minutes'}}</div>
+                <h3><b>{{getValueForCaption('PleaseWaitForYourTurn')||'Please wait for your turn.'}}</b></h3>
+                <h3><b>{{getValueForCaption('ThankYou')||'Thank You.'}}</b></h3>
+            </div>
+        </div>
+
+    </div>
+</div>

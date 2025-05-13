@@ -1,0 +1,16 @@
+<div class="full">
+    <div class="row" *ngIf="showLanguage">
+        <div class="col-md-4" *ngFor="let dataItem of Language">
+            <button type="button" class="btn btn-custom" (click)="getServices(dataItem)"
+                style="height: 80px; width: 240px; font-size: 24px;font-weight: 500;
+                line-height: 30px;">{{dataItem.LanguageName}}</button>
+        </div>        
+    </div>
+
+    <!-- <div class="row" *ngIf="!showLanguage">
+        <div class="col-md-6 p-5 text-center" *ngFor="let dataItem of Services">
+            <button type="button" class="btn btn-primary" 
+                style="height: 80px; width: 240px;">{{dataItem.ServiceCaption}}</button>
+        </div>        
+    </div> -->
+</div>
