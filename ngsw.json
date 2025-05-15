@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747286248762,
+  "timestamp": 1747288247950,
   "index": "https://brijeshdevloper.github.io/Portal/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://brijeshdevloper.github.io/Portal/favicon.ico",
         "https://brijeshdevloper.github.io/Portal/index.html",
-        "https://brijeshdevloper.github.io/Portal/main.ec0654645511ff23.js",
+        "https://brijeshdevloper.github.io/Portal/main.b41c73afddede0bf.js",
         "https://brijeshdevloper.github.io/Portal/manifest.webmanifest",
         "https://brijeshdevloper.github.io/Portal/polyfills.bb42524b54812331.js",
         "https://brijeshdevloper.github.io/Portal/runtime.908eb5a0bf44ae05.js",
@@ -4909,8 +4909,8 @@
     "https://brijeshdevloper.github.io/Portal/assets/images/qrcode.png": "2207261cc7280ddc99739749017123729c4f29a2",
     "https://brijeshdevloper.github.io/Portal/assets/images/tower-logo-whitest.png": "dda6ac6bf9e2476a60a3340b94f6ed8ef5eb38bd",
     "https://brijeshdevloper.github.io/Portal/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://brijeshdevloper.github.io/Portal/index.html": "82816ef864ac90c22d4eb6e9652999ab73e0a189",
-    "https://brijeshdevloper.github.io/Portal/main.ec0654645511ff23.js": "d3485b8f08883d85b36ec640acf903ac3e5d765b",
+    "https://brijeshdevloper.github.io/Portal/index.html": "ee30cbc4736e0ce518fa46420d2e5deaa3397a7e",
+    "https://brijeshdevloper.github.io/Portal/main.b41c73afddede0bf.js": "3bd3b5e453195a595e5d50e87e84847c8f3110d4",
     "https://brijeshdevloper.github.io/Portal/manifest.webmanifest": "90a7617a664ee2ecf1d478b06b025d259d43c176",
     "https://brijeshdevloper.github.io/Portal/polyfills.bb42524b54812331.js": "c747996dbcbd01521f39194fbe6b99de22bbc3d0",
     "https://brijeshdevloper.github.io/Portal/runtime.908eb5a0bf44ae05.js": "4282882d4d5892390070ece736b29a66f162abc5",
